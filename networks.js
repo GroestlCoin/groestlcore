@@ -16,19 +16,17 @@ exports.livenet = {
     hash: hex('2390633b70f062cb3a3d6814b67e29a80d9d7581db0bcc494d597c92c50a0000'),
     merkle_root: hex('bb2866aaca46c4428ad08b57bc9d1493abaf64724b6c3052a7c8f959df68e93c'),
     height: 0,
-    nonce: 2083236893,
+    nonce: 220035,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1231006505,
-    bits: 486604799,
+    timestamp: 1395342829,
+    bits: 0x1e0fffff,
   },
   dnsSeeds: [
-    'seed.bitcoin.sipa.be',
-    'dnsseed.bluematt.me',
-    'dnsseed.bitcoin.dashjr.org',
-    'seed.bitcoinstats.com',
-    'seed.bitnodes.io',
-    'bitseed.xf2.org'
+    'groestlcoin.org',
+    'jswallet.groestlcoin.org',
+    'electrum1.groestlcoin.org',
+    'electrum2.groestlcoin.org'
   ],
   defaultClientPort: 1331
 };

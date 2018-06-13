@@ -13,7 +13,7 @@ exports.livenet = {
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('2390633b70f062cb3a3d6814b67e29a80d9d7581db0bcc494d597c92c50a0000'),
+    hash: hex('2390633b70f062cb3a3d6814b67e29a80d9d7581db0bcc494d597c92c50a00000'),
     merkle_root: hex('bb2866aaca46c4428ad08b57bc9d1493abaf64724b6c3052a7c8f959df68e93c'),
     height: 0,
     nonce: 220035,
@@ -42,18 +42,20 @@ exports.testnet = {
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('43497FD7F826957108F4A30FD9CEC3AEBA79972084E90EAD01EA330900000000'),
+    hash: hex('36cdf2dcb7556287282a05c064012323bae663c16ed3cd9898fc50bbff000000'),
     merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
     height: 0,
-    nonce: 414098458,
+    nonce: 6556309,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1296688602,
-    bits: 486604799,
+    timestamp: 1440000002,
+    bits: 0x1e00ffff,
   },
   dnsSeeds: [
-    'testnet-seed.bitcoin.petertodd.org',
-    'testnet-seed.bluematt.me'
+    'testnet1.groestlcoin.org',
+    'testnet2.groestlcoin.org',
+    'testp2pool.groestlcoin.org',
+    'testp2pool2.groestlcoin.org' 
   ],
-  defaultClientPort: 18333
+  defaultClientPort: 17777
 };
